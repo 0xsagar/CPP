@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int a, b;
+    int a, b, count = 0;
     cin >> a >> b;
     for (int num = a; num <= b; num++)
     {
@@ -16,7 +16,8 @@ int main()
         }
         if (i == num)
         {
-            cout << num << endl;
+            count++;
+            cout << num << " " << count << endl;
         }
     }
     return 0;
