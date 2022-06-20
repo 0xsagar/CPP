@@ -41,8 +41,7 @@ int main()
 
     if (original == arm)
     {
-        cout << "The number is an Armstrong number!\n"
-             << arm;
+        cout << "The number is an Armstrong number!" << arm << endl;
     }
     else
     {
