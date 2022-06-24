@@ -18,13 +18,13 @@ int smallestNumber(int k, int d)
     }
     long l = stol(st);
     cout << "number : " << l << endl;
-    int ans = 0;
+    int answer = 0;
     while (!(l % d == 0))
     {
         l++;
-        ans++;
+        answer++;
     }
-    return ans;
+    return answer;
 }
 
 int main()
