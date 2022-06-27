@@ -26,16 +26,19 @@ int main()
     }
 
     int prev;
-    for (int i = 0; i < ArrLen; i++)
+    for (int i = 1; i < ArrLen; i++)
     {
-        if (Arr[i] != Arr[i + 1] && Arr[i] != prev)
+        for (int j = 0; j <= i; j++)
         {
-            result[k] = Arr[i];
-            k++;
-        }
-        else
-        {
-            continue;
+            if (Arr[i] == Arr[j])
+            {
+                break;
+            }
+            if (i == j)
+            {
+                result[k] = Arr[i];
+                k++;
+            }
         }
     }
 
@@ -43,4 +46,5 @@ int main()
     {
         cout << result[k] << " ";
     }
+    return 0;
 }
