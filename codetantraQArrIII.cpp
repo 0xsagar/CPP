@@ -24,9 +24,7 @@ int main()
             }
         }
     }
-
-    int prev;
-    for (int i = 1; i < ArrLen; i++)
+    for (int i = 0; i < ArrLen; i++)
     {
         for (int j = 0; j <= i; j++)
         {
@@ -48,3 +46,5 @@ int main()
     }
     return 0;
 }
+
+// INCOMLPLETE ----- Complete the question
