@@ -9,5 +9,5 @@ int main()
     {
         cin >> arr[i];
     }
-    for ()
+    for (int i = 0;)
 }
