@@ -19,5 +19,5 @@ int main()
     else
     {
         cout << "Invalid Input";
-    }int
+    }
 }
