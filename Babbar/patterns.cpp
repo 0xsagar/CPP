@@ -133,3 +133,179 @@ using namespace std;
 // 345
 // 4567
 // 56789
+
+// int main()
+// {
+//     int a;
+//     cin >> a;
+//     for (int i = 1; i <= a; i++)
+//     {
+//         for (int j = i; j >= 1; j--)
+//         {
+//             cout << j;
+//         }
+//         cout << endl;
+//     }
+// }
+
+// 1
+// 21
+// 321
+// 4321
+
+// int main()
+// {
+//     int a;
+//     char b = 64;
+//     cin >> a;
+//     for (int i = 1; i <= a; i++)
+//     {
+//         for (int j = 1; j <= a; j++)
+//         {
+//             cout << char(b + i);
+//         }
+//         cout << endl;
+//     }
+// }
+
+// AAAA
+// BBBB
+// CCCC
+// DDDD
+
+// int main()
+// {
+//     int a;
+//     char b = 64;
+//     cin >> a;
+//     for (int i = 1; i <= a; i++)
+//     {
+//         for (int j = 1; j <= a; j++)
+//         {
+//             cout << char(b + j);
+//         }
+//         cout << endl;
+//     }
+// }
+
+// ABC
+// ABC
+// ABC
+
+// int main()
+// {
+//     int a;
+//     char b = 64;
+//     cin >> a;
+//     for (int i = 1; i <= a; i++)
+//     {
+//         for (int j = 1; j <= a; j++)
+//         {
+//             cout << char(b + 1);
+//             b++;
+//         }
+//         cout << endl;
+//     }
+// }
+
+// ABC
+// DEF
+// GHI
+
+// int main()
+// {
+//     int a;
+//     char b = 64;
+//     cin >> a;
+//     for (int i = 1; i <= a; i++)
+//     {
+//         for (int j = 1; j <= a; j++)
+//         {
+//             cout << char(b + j);
+//         }
+//         b++;
+//         cout << endl;
+//     }
+// }
+
+// ABCD
+// BCDE
+// CDEF
+// DEFG
+
+// int main()
+// {
+//     int a;
+//     char b = 64;
+//     cin >> a;
+//     for (int i = 1; i <= a; i++)
+//     {
+//         for (int j = 1; j <= i; j++)
+//         {
+//             cout << char(b + i);
+//         }
+//         cout << endl;
+//     }
+// }
+
+// A
+// BB
+// CCC
+// DDDD
+
+// int main()
+// {
+//     int a;
+//     char b = 65;
+//     cin >> a;
+//     for (int i = 1; i <= a; i++)
+//     {
+//         for (int j = 1; j <= i; j++)
+//         {
+//             cout << char(b);
+//             b++;
+//         }
+//         cout << endl;
+//     }
+// }
+
+// A
+// BC
+// DEF
+// GHIJ
+
+// int main()
+// {
+//     int a;
+//     char b = 64;
+//     cin >> a;
+//     for (int i = 1; i <= a; i++)
+//     {
+//         for (int j = 1; j <= i; j++)
+//         {
+//             cout << char(b + j);
+//         }
+//         b++;
+//         cout << endl;
+//     }
+// }
+
+// A
+// BC
+// CDE
+// DEFG
+
+int main()
+{
+    int a;
+    cin >> a;
+    char b = 65;
+    for (int i = 1; i <= a; i++)
+    {
+        for (int j = 1; j <= i; j++)
+        {
+            cout << char(b - j + 1);
+        }
+        cout << endl;
+    }
+}
