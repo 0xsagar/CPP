@@ -295,17 +295,25 @@ using namespace std;
 // CDE
 // DEFG
 
-int main()
-{
-    int a;
-    cin >> a;
-    char b = 65;
-    for (int i = 1; i <= a; i++)
-    {
-        for (int j = 1; j <= i; j++)
-        {
-            cout << char(b - j + 1);
-        }
-        cout << endl;
-    }
-}
+// int main()
+// {
+//     int a;
+//     cin >> a;
+//     char b = 64 + a;
+//     for (int i = 1; i <= a; i++)
+//     {
+//         for (int j = 1; j <= i; j++)
+//         {
+
+//             cout << char(b - i + 1);
+//             b++;
+//         }
+//         b -= i;
+//         cout << endl;
+//     }
+// }
+
+// D
+// CD
+// BCD
+// ABCD
