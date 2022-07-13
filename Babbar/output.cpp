@@ -2,19 +2,8 @@
 using namespace std;
 int main()
 {
-    int a = 24;
-    int b = a + 1;
-    if (a > 20)
-    {
-        cout << "Love ";
-    }
-    else if (a == 24)
-    {
-        cout << "Lovely";
-    }
-    else
-    {
-        cout << "Babbar";
-    }
-    cout << a; 
+    int a = 1;
+    int b = a++;
+    int c = ++a;
+    cout << b << c;
 }
