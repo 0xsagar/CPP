@@ -30,7 +30,10 @@ int main()
 {
     int n;
     cin >> n;
-    int arr[n];
+    int arr[10000];
+    // NOTE: NEVER USE variable as the size of your array (GHATIA PRACTICE)
+    // Always use the given cinstraints or a larger number
+
     for (int i = 0; i < n; i++)
     {
         cin >> arr[i];
