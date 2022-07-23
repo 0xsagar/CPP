@@ -1,16 +1,15 @@
 #include <iostream>
 using namespace std;
+
+int update(int a)
+{
+    int ans = a * a;
+    return ans;
+}
+
 int main()
 {
-    for (int i = 0; i < 5; i++)
-    {
-        for (int j = i; j <= 5; j++)
-        {
-            if (i + j == 10)
-            {
-                break;
-            }
-            cout << i << " " << j << endl;
-        }
-    }
+    int a = 14;
+    a = update(a);
+    cout << a << endl;
 }
