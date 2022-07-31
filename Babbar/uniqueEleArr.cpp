@@ -1,4 +1,4 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 int main()
 {
@@ -16,12 +16,19 @@ int main()
     {
         cout << arr[i] << " ";
     }
+    cout << endl;
     cout << "Unique elements in our Array: ";
-    int newArr[100];
-    for(int i = 0; i < n; i++){
-        int count = 0;
-        for(int j = i+1; j < n - 1; j++){
-            
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < n; j++)
+        {
+            if (i != j && arr[i] == arr[j])
+            {
+                cout << arr[i] << " ";
+                arr[j] = arr[i] + INT_MIN;
+                break;
+            }
         }
     }
+    return 0;
 }

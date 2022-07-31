@@ -1,15 +1,17 @@
 #include <iostream>
+#include <math.h>
 using namespace std;
-
-int update(int a)
-{
-    int ans = a * a;
-    return ans;
-}
 
 int main()
 {
-    int a = 14;
-    a = update(a);
-    cout << a << endl;
+    int n, j;
+    cin >> n;
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = n - i; j > 1; j--)
+        {
+            cout << " ";
+        }
+        cout << pow(11, i) << " " << endl;
+    }
 }
