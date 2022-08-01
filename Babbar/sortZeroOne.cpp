@@ -55,26 +55,25 @@ using namespace std;
 // // //Approach 3 = i, j, Swap...Single Traversal
 // int main()
 // {
-//     int arr[6] = {0, 1, 0, 1, 1, 0};
-//     int i = 0, j = 5;
+//     int arr[8] = {0, 1, 0, 1, 0, 0, 1, 0};
+//     int i = 0, j = 7;
 //     while (i < j)
 //     {
-//         if (arr[i] == 0)
+//         while (arr[i] == 0)
 //         {
 //             i++;
 //         }
-//         if (arr[j] == 1)
+//         while (arr[j] == 1)
 //         {
 //             j--;
 //         }
-//         if (arr[i] == 1 && arr[j] == 0)
-//         {
-//             int temp = arr[j];
-//             arr[j] = arr[i];
-//             arr[i] = temp;
-//         }
+//         int temp = arr[j];
+//         arr[j] = arr[i];
+//         arr[i] = temp;
+//         i++;
+//         j--;
 //     }
-//     for (int i = 0; i < 6; i++)
+//     for (int i = 0; i < 8; i++)
 //     {
 //         cout << arr[i] << " ";
 //     }
