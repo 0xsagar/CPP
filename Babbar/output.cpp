@@ -1,17 +1,18 @@
 #include <iostream>
-#include <math.h>
 using namespace std;
-
 int main()
 {
-    int n, j;
-    cin >> n;
-    for (int i = 0; i < n; i++)
+    string str;
+    cin >> str;
+    int i, j, count = 0;
+    j = str.size() - 1;
+    for (int i = 0; i < j; i++)
     {
-        for (int j = n - i; j > 1; j--)
+        if (str[i] == str[j])
         {
-            cout << " ";
+            count = count + 2;
         }
-        cout << pow(11, i) << " " << endl;
+        j--;
     }
+    cout << count;
 }
