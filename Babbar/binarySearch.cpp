@@ -24,7 +24,8 @@ int binarySearch(int arr[], int n, int k)
         {
             end = mid - 1;
         }
-        mid = (start + end) / 2;
+        // mid = (start + end) / 2;
+        mid = (start + (end - start) / 2);
     }
     return -1;
 }
