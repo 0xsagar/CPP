@@ -20,7 +20,7 @@ int main()
                 arr[i] = temp;
             }
         }
-    }
+    }cout << arr[i] << " " << arr[j] << endl;
     for (int i = 0; i < n; i++)
     {
         cout << arr[i] << " ";
