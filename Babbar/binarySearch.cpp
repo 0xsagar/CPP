@@ -6,7 +6,8 @@ int binarySearch(int arr[], int n, int k)
     int start = 0;
     int end = n - 1;
     // int mid = (start + end) / 2;
-    // what if start and end are extremely big values which are out of the range of 'int' therefore using this will solve that kind of error
+    // but what if start and end are extremely big values which are out of the range of 'int' 
+    // therefore using this will solve that kind of error
     int mid = (start + (end - start) / 2);
     while (start <= end)
     {
